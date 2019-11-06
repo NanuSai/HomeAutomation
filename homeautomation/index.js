@@ -1,7 +1,7 @@
 const path = require("path");
 global.appRoot = path.resolve(__dirname);
 const express = require("express");
-const port = process.env.PORT || "8000";
+const port = process.env.PORT || "3000";
 var app = express();
 var loginrouter = require("./Routes/login-router");
 var mainrouter = require("./Routes/main-router");
